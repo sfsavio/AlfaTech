@@ -1,7 +1,7 @@
 body {
     margin: 0;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-a {
-    color: green;
-}
