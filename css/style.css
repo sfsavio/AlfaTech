@@ -80,5 +80,48 @@ body {
     height: 80vh;
     width: 100vw;
     background-color: #2f86d6;
+    position: relative;
+    /* padding: 180px 0px; */
+
 }
 
+.banner .banner-content {
+    box-sizing: border-box;
+    position: absolute;
+   /*  background-color: tomato; */
+    width: 1024px;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 25%;
+    
+}
+
+.banner .banner-content .banner-info {
+    height: 50%;
+    position: absolute;
+    width: 470px;
+    /* background-color: #233032; */
+    margin-top: 10%;
+}
+
+.banner .banner-content .banner-info p {
+    color: #f6f6f6;
+   /*  background-color: red; */
+   font-size: 17px;
+    }
+
+.banner .banner-content .banner-info h2 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.banner .banner-content .banner-img {
+    width: 50%;
+    height: 100%;
+   /*  background-color: red; */
+    position: absolute;
+    right: 0;
+}
