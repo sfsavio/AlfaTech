@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Poggins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 
@@ -15,7 +15,7 @@ body {
 /* 25% left and 25% right */
 
 .navbar .nav-logo {
-    left: 25%;
+    left: 23%;
     /* width: 120px; */
 
     height: 100%;
@@ -30,36 +30,36 @@ body {
 
 
 .navbar .nav-title {
-    font-family: 'Poggins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     width: 250px;
     height: 50%;
     /* background-color: aqua; */
     position: absolute;
-    left: 31%;
+    left: 29%;
     padding-top: 30px;
 }
 
 .navbar .nav-title h1 {
     color: #233032;
     font-weight: bolder;
-    font-family: 'Poggins', sans-serif;
-    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
 }
 
 .navbar .nav-title p {
     color: #2f86d6;
     font-weight: bold;
     margin-top: -25px;
-    font-family: 'Poggins', sans-serif;
-    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
 }
 
 .navbar .nav-buttons {
     position: absolute;
     /* height: 100%; */
     /* background-color: tomato; */
-    right: 25%;
-    top: 40%;
+    right: 23%;
+    top: 37%;
 }
 
 .navbar .nav-buttons ul li {
@@ -69,15 +69,16 @@ body {
 }
 
 .navbar .nav-buttons ul li a {
-    font-family: 'Poggins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-decoration: none;
     font-weight: bolder;
     color: black;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .banner {
-    height: 100vh;
+    height: 80vh;
     width: 100vw;
     background-color: #2f86d6;
 }
+
