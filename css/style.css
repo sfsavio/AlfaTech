@@ -96,7 +96,7 @@ body {
     left: 0;
     right: 0;
     top: 16%;
-    
+
 }
 
 .banner .banner-content .banner-info {
@@ -109,9 +109,9 @@ body {
 
 .banner .banner-content .banner-info p {
     color: #f6f6f6;
-   /*  background-color: red; */
-   font-size: 17px;
-    }
+    /*  background-color: red; */
+    font-size: 17px;
+}
 
 .banner .banner-content .banner-info h2 {
     color: #fff;
@@ -121,7 +121,7 @@ body {
 .banner .banner-content .banner-img {
     width: 50%;
     height: 100%;
-   /*  background-color: red; */
+    /*  background-color: red; */
     position: absolute;
     right: 0;
 }
@@ -154,7 +154,7 @@ body {
 
 .first-ad .first-ad-container .first-ad-right {
     position: absolute;
-    top: 45px;
+    top: 36px;
     right: 0;
     background-color: #2f86d6;
     padding: 20px;
@@ -165,14 +165,72 @@ body {
     text-decoration: none;
     font-weight: bolder;
     color: #f6f6f6;
-    font-size:19px;
+    font-size: 19px;
     margin-left: 5px;
 
 }
 
-
-
-
 .info {
-    height: 100vh;
+    /* main */
+    height: 65vh;
+    width: 100vw;
+   /*  background-color: tomato; */
+    position: relative;
+}
+
+.info-box {
+    width: 1024px;
+    height: 100%;
+    /* background-color: whitesmoke; */
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+
+.info-box .info-sub {
+    /*title */
+    text-align: center;
+    /* background-color: aquamarine; */
+    width: 100%;
+    height: 130px;
+    position: absolute;
+    margin-top: 100px;
+    box-sizing: border-box;
+}
+
+.info-content-left img,
+.info-content-right img,
+.info-content-mid img {
+    width: 30%;
+}
+
+.info-box .info-content-img .info-content-left {
+    position: absolute;
+    text-align: center;
+    width: 33%;
+    bottom: 100px;
+    left: 0;
+    box-sizing: border-box;
+}
+
+.info-box .info-content-img .info-content-mid {
+    /* background-color: red; */
+    width: 33%;
+    position: absolute;
+    text-align: center;
+    left: 350px;
+    bottom: 100px;
+    box-sizing: border-box;
+    }
+
+.info-box .info-content-img .info-content-right {
+    position: absolute;
+    text-align: center;
+    width: 33%;
+    bottom: 100px;
+    right: 0;
+    box-sizing: border-box;
 }
