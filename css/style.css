@@ -73,7 +73,7 @@ body {
     text-decoration: none;
     font-weight: bolder;
     color: black;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .banner {
@@ -174,7 +174,7 @@ body {
     /* main */
     height: 65vh;
     width: 100vw;
-   /*  background-color: tomato; */
+    /*  background-color: tomato; */
     position: relative;
 }
 
@@ -201,6 +201,17 @@ body {
     box-sizing: border-box;
 }
 
+.info-box .info-sub h2 {
+    color: #233032;
+    font-family: 'Poppins', sans-serif;
+    font-size: 33px;
+}
+
+.info-box .info-sub span {
+    color: #2f86d6;
+
+}
+
 .info-content-left img,
 .info-content-right img,
 .info-content-mid img {
@@ -224,7 +235,7 @@ body {
     left: 350px;
     bottom: 100px;
     box-sizing: border-box;
-    }
+}
 
 .info-box .info-content-img .info-content-right {
     position: absolute;
@@ -234,3 +245,147 @@ body {
     right: 0;
     box-sizing: border-box;
 }
+
+.plan {
+    width: 100%;
+    height: 95vh;
+    background-color: #f1f3f7;
+    position: relative;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.plan .section-plan {
+    position: relative;
+    width: 1024px;
+    height: 100%;
+    /*  background-color: #48d62f; */
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+}
+
+.section-plan .plan-sub {
+    box-sizing: border-box;
+    position: absolute;
+    /* background-color: red; */
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 32px;
+    color: #000000;
+    top: 60px;
+    height: 50px;
+}
+
+
+
+.section-plan .plan-sub span {
+    color: #2f86d6;
+}
+
+.section-plan .plan-table {
+    background-color: #fff;
+    position: absolute;
+    bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    border-radius: 10px;
+
+}
+
+.section-plan .plan-table .table1 {
+    /* background-color: red; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.section-plan .plan-table .table1 tr th h4 {
+    font-size: 18px;
+    color: #000000;
+}
+
+.section-plan .plan-table .table1 thead {
+    /* background-color: red; */
+    border-radius: 10px;
+}
+
+.section-plan .plan-table .table1 thead p {
+    font-size: small;
+    font-size: 13px;
+    color: #a89f9f;
+}
+
+.section-plan .plan-table .table1 tbody p {
+
+    font-size: 16px;
+    color: #000000
+}
+
+.section-plan .plan-table .table1 tbody .impar {
+    background-color: #f6f6f6;
+}
+
+.section-plan .plan-table .table1 tbody .par {
+    background-color: #f1f3f7;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+
+
+.second-ad {
+    width: 100vw;
+    height: 15vh;
+    background-color: #2f86d6;
+    position: relative;
+}
+
+.second-ad .second-ad-container {
+    width: 1024px;
+    height: 100%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    left: 0;
+    right: 0;
+    /* background-color: blue; */
+    font-family: 'Poppins', sans-serif;
+    color: #f6f6f6;
+}
+
+.second-ad .second-ad-container .second-ad-left {
+    position: relative;
+    top: 14px;
+}
+
+.second-ad .second-ad-container .second-ad-right {
+    position: absolute;
+    top: 36px;
+    right: 0;
+    background-color: #233032;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.second-ad .second-ad-container .second-ad-right a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #f6f6f6;
+    font-size: 19px;
+    margin-left: 5px;
+
+}
+
