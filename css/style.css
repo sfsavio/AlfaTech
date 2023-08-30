@@ -342,9 +342,6 @@ body {
     border-bottom-right-radius: 10px;
 }
 
-
-
-
 .second-ad {
     width: 100vw;
     height: 15vh;
@@ -387,5 +384,93 @@ body {
     font-size: 19px;
     margin-left: 5px;
 
+}
+
+.footer {
+    width: 100vw;
+    height: 55vh;
+    background-color: #f1f3f7;
+    position: relative;
+}
+
+.footer .f-logo {
+    top: 85px;
+    width: 320px;
+    height: 150px;
+   /*  background-color: red; */
+    position: absolute;
+    left: 0; right: 0;
+    margin-left: auto; margin-right: auto;
+    
+}
+.footer .f-logo img {
+    width: 100px;
+    position: relative;
+}
+
+.footer .f-logo .f-logo-info {
+    position: relative;
+    left: 20px;
+    top: -150px;
+    left: 125px;
+}
+
+.footer .f-logo .f-logo-info h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    position: absolute;
+    top: 15px;
+    font-weight: bold;
+    
+
+}
+
+.footer .f-logo .f-logo-info p {
+    position: absolute;
+    color: #2f86d6;
+    font-size: 18px;
+    top: 82px;
+    font-weight: bold;
+}
+
+.footer .data-footer {
+    width: 1024px;
+    height: 40%;
+    position: absolute;
+    /* background-color: red; */
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 70px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.creditos {
+    width: 100vw;
+    height: 10vh;
+    background-color: #dbdce0;
+}
+
+.creditos .creditos-content {
+    width: 1024px;
+    height: auto;
+    /* background-color: green; */
+    text-align: center;
+    position: absolute;
+    left: 0; right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    /* font-weight: bold; */
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.creditos .creditos-content span {
+    color: #2f86d6;
 }
 
