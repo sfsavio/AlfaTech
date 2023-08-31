@@ -5,3 +5,228 @@ body {
     box-sizing: border-box;
 }
 
+.navbar {
+    width: 100vw;
+    height: 15vh;
+    background-color:#2f86d6;
+    position: relative;
+}
+
+.navbar .navbar-content {
+    width: 1024px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: tomato; */
+    height: 100%;
+
+}
+
+.navbar .navbar-content img {
+    position: absolute;
+    width: 85px;
+    top: 19%;
+    
+}
+
+.navbar .navbar-content h1, .navbar-content p {
+    position: absolute;
+    left: 100px;
+    top: 25px;
+}
+
+.navbar .navbar-content h1 {
+    top: 8px ;
+}
+
+.navbar .navbar-content p {
+    top: 60px;
+    color: #fff;
+    /* font-weight: bold; */
+}
+
+.navbar-links {
+    position: absolute;
+}
+
+.navbar-links ul {
+    position: relative;
+    left: 1024px;
+    top: 45px;
+}
+
+
+.navbar-links ul li {
+    display: inline;
+    margin-left: 25px;
+    
+    
+}
+.navbar-links ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.table {
+    height: 130vh;
+    width: 100vw;
+    position: relative;
+}
+
+.table .table-content {
+    width: 1024px;
+    /* background-color: rgb(254, 251, 251); */
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    box-sizing: border-box;
+    /*  */
+}
+
+.table .table-content thead h2, .table-content thead p {
+    /* background-color: blue; */
+}
+
+.table .table-content thead tr {
+    background-color: #f6f6f6;
+   
+}
+
+.table .table-content .vazio {
+    visibility: hidden;
+}
+
+.table .table-content tbody .row2 {
+    background-color: #f6f6f6;
+    width: 300px;
+}
+
+.table .table-content tbody tr {
+    height: 60px;
+    border: 2px #810f0f solid;
+}
+
+.table .table-content thead th{
+    width: 200px;
+    /* border: 2px #810f0f solid; */
+}
+
+.table .table-content tbody td {
+    border-bottom: 2px solid #f6f6f6;
+}
+
+.footer {
+    width: 100vw;
+    height: 30vh;
+    background-color: #2f86d6;
+    position: relative;
+}
+
+.footer .f-content {
+    position: absolute;
+    width: 1024px;
+    height: 100%;
+    /* background-color: tomato; */
+    left: 0; right: 0;
+    margin-left: auto ;
+    margin-right: auto;
+    /* text-align: center; */
+}
+
+.footer .f-content img {
+    width: 100px;
+    position: absolute;
+}
+
+.footer .f-content h1, .footer .f-content p {
+    position: absolute;
+    text-align: center;
+    left: 110px;
+}
+
+.footer .f-content h1 {
+    top: -13px;
+}
+.footer .f-content p {
+    top: 40px;
+    color: #f6f6f6;
+    font-weight: bold;
+}
+
+.footer .f-content .f {
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    /* background-color: #810f0f; */
+    left: 0; right: 0;
+    margin-left: auto ;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.footer .f-content .f-text {
+    width: 800px;
+    height: 50px;
+    /* background-color: red; */
+    position: absolute;
+    text-align: center;
+    left: 0; right: 0;
+    margin-left: auto ;
+    margin-right: auto;
+    bottom: 100px;
+    color: #fff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.creditos {
+    width: 100vw;
+    height: 10vh;
+    background-color: #dbdce0;
+}
+
+.creditos .creditos-content {
+    width: 1024px;
+    height: auto;
+    /* background-color: green; */
+    text-align: center;
+    position: absolute;
+    left: 0; right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.creditos .creditos-content span {
+    color: #2f86d6;
+}
