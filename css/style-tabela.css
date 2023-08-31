@@ -8,7 +8,7 @@ body {
 .navbar {
     width: 100vw;
     height: 15vh;
-    background-color:#2f86d6;
+    background-color: #2f86d6;
     position: relative;
 }
 
@@ -28,17 +28,18 @@ body {
     position: absolute;
     width: 85px;
     top: 19%;
-    
+
 }
 
-.navbar .navbar-content h1, .navbar-content p {
+.navbar .navbar-content h1,
+.navbar-content p {
     position: absolute;
     left: 100px;
     top: 25px;
 }
 
 .navbar .navbar-content h1 {
-    top: 8px ;
+    top: 8px;
 }
 
 .navbar .navbar-content p {
@@ -61,10 +62,11 @@ body {
 .navbar-links ul li {
     display: inline;
     margin-left: 25px;
-    
-    
+
+
 }
-.navbar-links ul li a{
+
+.navbar-links ul li a {
     text-decoration: none;
     color: #fff;
 }
@@ -89,13 +91,11 @@ body {
     /*  */
 }
 
-.table .table-content thead h2, .table-content thead p {
-    /* background-color: blue; */
-}
+
 
 .table .table-content thead tr {
     background-color: #f6f6f6;
-   
+
 }
 
 .table .table-content .vazio {
@@ -112,7 +112,7 @@ body {
     border: 2px #810f0f solid;
 }
 
-.table .table-content thead th{
+.table .table-content thead th {
     width: 200px;
     /* border: 2px #810f0f solid; */
 }
@@ -133,8 +133,9 @@ body {
     width: 1024px;
     height: 100%;
     /* background-color: tomato; */
-    left: 0; right: 0;
-    margin-left: auto ;
+    left: 0;
+    right: 0;
+    margin-left: auto;
     margin-right: auto;
     /* text-align: center; */
 }
@@ -144,7 +145,8 @@ body {
     position: absolute;
 }
 
-.footer .f-content h1, .footer .f-content p {
+.footer .f-content h1,
+.footer .f-content p {
     position: absolute;
     text-align: center;
     left: 110px;
@@ -153,6 +155,7 @@ body {
 .footer .f-content h1 {
     top: -13px;
 }
+
 .footer .f-content p {
     top: 40px;
     color: #f6f6f6;
@@ -164,8 +167,9 @@ body {
     width: 400px;
     height: 100px;
     /* background-color: #810f0f; */
-    left: 0; right: 0;
-    margin-left: auto ;
+    left: 0;
+    right: 0;
+    margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
 }
@@ -176,35 +180,14 @@ body {
     /* background-color: red; */
     position: absolute;
     text-align: center;
-    left: 0; right: 0;
-    margin-left: auto ;
+    left: 0;
+    right: 0;
+    margin-left: auto;
     margin-right: auto;
     bottom: 100px;
     color: #fff;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .creditos {
     width: 100vw;
@@ -218,7 +201,8 @@ body {
     /* background-color: green; */
     text-align: center;
     position: absolute;
-    left: 0; right: 0;
+    left: 0;
+    right: 0;
     margin-left: auto;
     margin-right: auto;
     padding-top: 20px;
