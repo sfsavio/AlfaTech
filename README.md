@@ -17,4 +17,4 @@ Página tabela.html
 
 Se voce possui o git instalado, apenas abra use o seguinte código em seu terminal:
 
-git clone 
+git clone https://github.com/sfsavio/AlfaTechProject.git
