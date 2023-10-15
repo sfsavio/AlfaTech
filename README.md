@@ -15,7 +15,7 @@ Página tabela.html
 
 ![image](https://github.com/sfsavio/AlfaTechProject/assets/133609536/9023c3d2-24b5-4bf4-bd3e-2ec13ccf6faa)
 
-Se voce possui o git instalado, apenas abra use o seguinte código em seu terminal:
+clone repo:
 
 ```
 git clone https://github.com/sfsavio/AlfaTechProject.git
